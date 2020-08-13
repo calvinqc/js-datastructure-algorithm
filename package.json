@@ -1,0 +1,27 @@
+{
+  "name": "leeetcode",
+  "version": "1.0.0",
+  "description": "A place where I built data structure in different languages",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./src/*",
+    "test": "jest",
+    "ci": "npm run lint && npm run test -- --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@types/jest": "^26.0.7",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.18.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "husky": "^4.2.5",
+    "jest": "^26.1.0"
+  },
+  "type": "module",
+  "author": "Calvin Nguyen",
+  "license": "ISC"
+}
